@@ -8,7 +8,7 @@ This .NET backend provides full **CRUD** functionality for managing recipes. Use
 
 ## How to run
 - start a SQL database. I used Microsoft SQL Server
-- in `appsettings.json` change `DefaultConnection` to reflect your server and database names `Server=MSI\\SQLEXPRESS; Database=cheeseMaking;`
+- in `appsettings.json` change `DefaultConnection` to reflect your server and database names `Server={YOUR_SERVER_NAME}; Database={YOUR_DATABASE_NAME};`
 - go to `api` directory
 - in `/api` directory run `dotnet ef migrations add migrationName`
 - run `dotnet ef database update`
